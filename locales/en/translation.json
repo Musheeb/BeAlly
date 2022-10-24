@@ -1,0 +1,215 @@
+{
+    "Invalid_Rout":"Page Not Found",
+
+    "Email_Validation":"Email Already Exist",
+
+    "Email_Correct":"Plz Provide Email in Correct Format",
+
+    "Empty_Feild":"Cannot be Empty [Name,email,password]",
+
+    "Data_Add":"Registeration Succefull",
+
+    "Event_Add":"Event Category Succefully Added",
+    
+    "Event_Update":"Event Category Succefully Updated",
+
+    "Status_Update":"User Status Changed",
+
+    "Delete_Category":"Category has bee Deleted Successfully",
+
+     "Delete_User":"User Has Been Deleted",
+
+     "Delete_Notification":"Notification Has Been Deleted",
+
+    "Login_Invalid":"Invalid email or password",
+
+    "Login_Success":"login successfully",
+
+    "Unauthorized_User":"Access Denied! Unauthorized User",
+
+    "Invalid_Token":"Invalid Token...",
+
+    "Change_Pass_Success":"Password Succesfully Changed",
+
+    "New_Pass_Conf_Pass_Not_Match": "New Password and Confirm Password not Match",
+
+    "Pass_Not_Match":"Password Not Match",
+
+    "User_Not_Found":"User not Found",
+
+    "Check_Inbox":" Plz Check Your Inbox of Mail and Reset Password ",
+
+    "Email_Not_Exist":"This Email Does Not Exists",
+
+    "Link_Expired":"This Link Has Been Expired",
+    
+    "Password_Reset_Success":"The Password Has been Reset",
+
+    "payment_all_data_below" : "Your all payment related data (succeded and failed) is given below.",
+
+
+
+
+    "hello" : "Hello ",
+
+    "text_for_email_registration" : " OTP for email verification for BeAlly:- ",
+
+    "text_for_email_registration_resend" : " Your new OTP for email registration is:- ",
+
+    "text_for_grab_otp_in_forget_password" : "Grab your OTP for forget password:- ",
+
+
+
+
+
+    "token_not_found" : " Unauthorized user...Token not found",
+
+    "something_went_wrong" : "Something went wrong at splitting the token",
+
+    "token_has_not_verified_successfully" : "Operation failed. Something wrong with the token. Token hasn't verified.",
+
+
+
+
+    "unsuccessfull_status" : "Failed",
+
+    "fields_can_not_be_null" : "Please provide all the required details. Those fields can not be null.",
+
+    "invalid_email" : "Invalid email...Please provide valid email",
+    
+    "invalid_user_id" : "Invalid user id in req.params",
+
+    "email_already_exists" : "Email already exists",
+
+    "successfull_status" : "Success",
+
+    "otp_generation_on_recomended_email" : "OTP has been sent successfully to your recomended email address" ,
+
+    "otp_email_subject" : "OTP for mail registration",
+
+    "resend_otp_generation_subject" : "New OTP for email registration",
+
+    "otp_verified_successfully" : "OTP has been verified successfully.",
+
+    "otp_forget_password_email_subject" : "OTP for forget password",
+
+    "resend_otp_success" : "Resend OTP successfully",
+
+    "entered_invalid_otp" : "You have entered invalid OTP", 
+
+    "account_registered_successfully" : "Your account has been registered successfully",
+
+    "user_not_found" : "User not found",
+
+    "blocked_user" : "Access denied. User is blocked",
+
+    "invalid_credentials" : "Invalid credentials",
+ 
+    "login_successfully" : "Successfully logged in",
+
+    "entered_invalid_email" : "You have entered invalid email",
+
+    "email_does_not_exist" : "Email does not exist" ,
+
+    "otp_sent_forget_password" : "OTP has been sent successfully on your email address as per your forget password request",
+
+    "otp_verify_forget_password" : "OTP verified. Redirecting you to change password page...Please wait",
+
+    "incorrect_old_password" : "Incorrect old password",
+
+    "new_pass_and_confirm_pass_does_not_match" : "New Password and Confirm New Password does not match. Both must be the same",
+
+    "something_went_wrong_at_password_updation" : "Something went wrong. Password hasn't updated.Please try again",
+
+    "password_changed_successfully" : "Password changed successfully",
+
+    "category_created" : "Category has been created successfully.",
+
+    "something_went_wrong_can_not_save_category" : "Something went wrong. category hasn't created successfully",
+
+    "event_created_successfully" : "Event has been created successfully.",
+
+    "unsubscribed_to_home" : "You can not select this event category because you haven't subscribed to this special category. If you want to enjoy this category kindly do subscribe to it.",
+
+    "category_not_found" : "Category you are trying to find doesn't exist.(category id does not exist)",
+
+    "email_already_exists_can_not_register_with_this_email": "The email you are trying to register with is already exists in our record. Please use unique email to register your account.",
+
+    "user_profile_created_successfully" : "Your profile has been created successfully.",
+
+    "event_user_feed_filter" : "Your data that you have requested for is given below",
+    
+    "report_event_successfully" : "Your report has been registered successfully regarding to this event. Thank you for being active.",
+
+    "event_not_found" : "Event that you are trying to report does not exists.Please check id that you have provided in the body.",
+
+    "successfull_get_all_categories" : "Your request to get all the categories has approved.",
+
+    "user_not_found_for_token_social_login" : "Something went wrong. User hasn't saved successfully that you are trying to register.",
+
+    "categories_not_found" : "Categories not found.",
+
+    "body_user_not_found" : "One of the Ids that you have provided in body does not exists in db or invalid id in body.",
+
+    "connection_between_these_two_already_created" : "These two users have already synced or chatted before.Thier all messages are given below.",
+
+    "first_time_record_creation" : "Record has been created successfully between both of these two users and first message saved in database as well",
+
+    "params_id_and_body_id_does_not_match" : "Ids mismatched. Please provide same id in params and body(params id must be match with one of the users id in body (1 or 2)).",
+
+    "record_not_found_in_database" : "Invalid chat id or record does not exists in database(Please check if chat id is legitimate or not)",
+
+    "message_not_sent" : "Message has not sent successfully.Something went wrong.",
+
+    "message_saved_successfully" : "Message has been saved successfully",
+
+    "params_and_sender_does_not_match" : "Id in params and Id in sender_id field does not match.They must be the same",
+
+    "message_sent_successfully" : "Message has been sent successfully.",
+
+    "message_has_not_sent_successfully" : "Message hasn't sent. Operation failed",
+
+    "invalid_user_id_in_params" : "Invalid user_id in params or user does not exists in record.",
+
+    "all_conversation_list_for_this_user" : "All conversation list for this user only",
+
+    "user_all_events_given_below" : "This user's all created events all given below",
+
+    "get_profile_info" : "Your request to get your profile info has been approved",
+
+    "user_profile_given_below" : "This user hasn't created any events till yet. User profile is given below.",
+    
+    "user_profile_along_with_self_events" : "This user's all created events are given below.",
+
+    "get_SavedCategories" : "All saved cagtegories are given below.",
+
+    "categories_saved_successfully" : "Your categories has been saved successfully. According to your all saved categories you will get notifications.",
+
+    "user_does_not_saved_any_categories" : "This user does not have any saved categories at all.",
+
+    "saved_category_updated_successfully" : "Your saved categories has been updated successfully.",
+
+    "all_plans_are_given_below" : "All plans are given below that you could subscribe with to take advantage of our special events.",
+
+    "no_plan_is_present" : "No plan is avialable. Plan list is empty.",
+
+    "url_has_been_generated" : "Url for payment has been generated below. Pick that up and use it for payment.",
+
+    "query_send_to_admin_success" : "Your query has been sent to admin successfully.",
+
+    "email_from_user_regarding_query" : " *BeAlly* ",
+
+    "email_has_not_sent" : "Email has not sent successfully. You may have not put credentials porperly.(Invalid credentials)",
+
+    "account_has_been_deleted_successfully" : "Your account has been deleted successfully.",
+
+    "in_app_notifications_given_below" : "Your all in-app-notifications are given below.",
+
+    "invalid_password" : "Password you have entered is incorrect. Please provide valid password to delete your account",
+
+    "all_subscription_details_is_given_below" : "Your all subscription details are given below.",
+
+    "user_not_subscribed_yet" : "This user has not subscribed yet.",
+
+    "plan_unsubscribed_successfully" : "Your plan has been unsubscribed successfully.You will no longer be able to create our spcial category events from your current subscription termination(Your current plan expiration)."
+}

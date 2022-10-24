@@ -1,0 +1,72 @@
+const mongoose = require('mongoose');
+
+const Charge = new mongoose.Schema({
+    charge_id:{
+        type:String
+    },
+    object:{
+        type:String
+    },
+    charge_customer_id:{
+        type:String
+    },
+    balance_transaction:{
+        type:String
+    },
+    plan_amount:{
+        type:String
+    },
+    payer_email:{
+        type:String
+    },
+    plan_amount_currency:{
+        type:String
+    },
+    charge_create:{
+        type:Date
+    },
+    charge_currency:{
+        type:String
+    },
+    charge_description:{
+        type:String
+    },
+    charge_invoice:{
+        type:String
+    },
+    seller_message:{
+        type:String
+    },
+    payment_intent:{
+        type:String
+    },
+    payment_method:{
+        type:String
+    },
+    paid_status:{
+        type:String
+    },
+    charge_country:{
+        type:String
+    },
+    exp_month:{
+        type:String
+    },
+    funding:{
+        type:String
+    },
+    last_4:{
+        type:Number
+    },
+    network:{
+        type:String
+    },
+    card_type:{
+        type:String
+    },
+    status:{
+        type:String
+    }
+});
+
+module.exports = mongoose.model('charge',Charge);
